@@ -1,0 +1,105 @@
+.sb_title
+{
+    color: white;
+    font-family: calibri;
+    background-color: #bb0000;
+    animation: headerText;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes headerText {
+    0% {background-color: #fda;}
+    100% {background-color: #bb0000;}
+
+}
+
+#DIVMenu {
+  margin: 0;
+	text-align: center;
+  background-color: #FDA;
+  border-bottom: 1px solid #bb0000;
+  animation: navBorder;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes navBorder {
+    0% {margin-top: 0;}
+    50% {margin-top: 10px;}
+    100% {margin-top: 0;}
+
+}
+
+div#DIVMenu a:link
+{
+  color: black;
+  font-size: 20px;
+  font-family: calibri;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+div#DIVMenu a:hover
+{
+  color: #bb0000;
+  font-weight: bold;
+}
+
+.MediumHeader
+{
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  background-color: #bb0000;
+  font-family: calibri;
+}
+
+.welcomeText
+{
+  font-size: 36px;
+  font-family: calibri;
+}
+
+.SubContentCategory
+{
+  font-size: 20px;
+  color: #bb0000;
+  border-bottom: 2px solid #fff;
+  font-family: calibri;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.ContentParagraph
+{
+  width: 95%;
+  padding: 10px;
+  text-align: justify;
+  background-color: #ccc;
+  border-radius: 20px;
+}
+
+#theMainTable
+{
+  padding: 50px;
+}
+
+.Content3
+{
+  padding: 10px;
+}
+
+.sb_SelectedWorkDescription
+{
+  display: inline;
+  font-family: calibri;
+  margin-top: 20px;
+}
+
+.ContentQuickLink
+{
+  text-align: center;
+}
